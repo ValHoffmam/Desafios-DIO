@@ -1,0 +1,6 @@
+let str = gets();
+str = str.split('').reverse();
+
+str = str.join('');
+
+console.log(str);
