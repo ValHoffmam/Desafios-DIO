@@ -1,0 +1,13 @@
+let numEncontrado = gets();
+let numeros = gets();
+let numAcertos = 0;
+
+let palpites = numeros.split(" ");
+
+for(let i = 0; i < palpites.length; i++) {
+  if(palpites[i] === numEncontrado) {
+    numAcertos++;
+  }
+}
+
+console.log(numAcertos);
