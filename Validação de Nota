@@ -1,0 +1,15 @@
+let notas = [];
+let notasValidas = 0;
+
+while (notasValidas < 2) {
+let entrada = parseFloat(gets());
+  if(entrada < 0 || entrada > 10){
+     console.log('nota invalida')
+  }
+  else {
+    notas[notasValidas] = entrada;
+    notasValidas++;
+  }
+}
+let media = ((notas[0] + notas[1]) / 2).toFixed(2)
+console.log("media = " + media);
