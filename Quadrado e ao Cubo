@@ -1,0 +1,7 @@
+let input = parseInt(gets());
+
+for(let i = 1; i <= input; i++){
+let output = ''
+console.log(i , i  * i, i * i * i) 
+
+}
