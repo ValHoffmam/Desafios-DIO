@@ -1,0 +1,6 @@
+let joias = [];
+for(let i = 0; i <= 106; i++) {
+  joias[i] = gets();
+}
+let tiposJoias = [...new Set(joias)];
+console.log(tiposJoias.length - 1);
